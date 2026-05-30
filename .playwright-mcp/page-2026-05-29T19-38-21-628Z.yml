@@ -1,0 +1,24 @@
+- generic [ref=e1]:
+  - generic "Login Section" [ref=e2]:
+    - generic [ref=e5]:
+      - img "Maritime platform" [ref=e6]
+      - text: MARITIME
+    - generic [ref=e7]:
+      - generic "Login Username" [ref=e8]:
+        - textbox "Username" [active] [ref=e9]
+      - generic [ref=e11]:
+        - textbox "Password field" [ref=e12]:
+          - /placeholder: Password
+        - generic [ref=e14]: 
+      - checkbox "Remember Me" [ref=e15]:
+        - checkbox "Remember me" [ref=e16]
+        - generic [ref=e17]: Remember me
+      - button "Sign In" [ref=e19] [cursor=pointer]
+      - link "Forgot Password Link" [ref=e20] [cursor=pointer]: Forgot password?
+      - separator "Sign In Divider" [ref=e21]:
+        - generic [ref=e22]: or
+      - button "Microsoft Sign-In Sign in with Microsoft" [ref=e23] [cursor=pointer]:
+        - img "Microsoft Sign-In" [ref=e25]
+        - generic [ref=e26]: Sign in with Microsoft
+  - contentinfo "Footer Section" [ref=e27]:
+    - generic [ref=e28]: © ORBCOMM 2026 All Rights Reserved

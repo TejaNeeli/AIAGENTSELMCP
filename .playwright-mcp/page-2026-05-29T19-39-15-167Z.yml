@@ -1,0 +1,50 @@
+- generic [ref=e31]:
+  - img "Loading" [ref=e33]
+  - navigation [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - img "Maritime platform" [ref=e37]
+        - generic [ref=e38]: MARITIME
+      - generic [ref=e39]:
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Home" [ref=e42] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=e43]:
+            - button "Assets " [ref=e44] [cursor=pointer]
+            - text:     
+          - listitem [ref=e45]:
+            - button "Configuration " [ref=e46] [cursor=pointer]
+            - text:  
+          - listitem [ref=e47]:
+            - button "Deployment " [ref=e48] [cursor=pointer]:
+              - text: Deployment
+              - text: 
+            - text:  
+          - listitem [ref=e49]:
+            - button "Reports " [ref=e50] [cursor=pointer]:
+              - text: Reports
+              - text: 
+            - text:   
+          - listitem [ref=e51]:
+            - button "Help " [ref=e52] [cursor=pointer]:
+              - text: Help
+              - text: 
+            - text: 
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - button
+          - listitem [ref=e55]:
+            - button "Default " [ref=e56] [cursor=pointer]:
+              - text: Default
+              - text: 
+          - listitem [ref=e57]:
+            - generic [ref=e58]: 
+          - listitem [ref=e59]:
+            - button "fo_crowley " [ref=e60] [cursor=pointer]
+        - list [ref=e61]:
+          - listitem [ref=e62]:
+            - button " " [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]: 
+              - text: 
+            - text:                
