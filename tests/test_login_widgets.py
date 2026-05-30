@@ -3,6 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 BASE_URL = "https://awsqa2.tms-orbcomm.com"
 
@@ -10,7 +12,7 @@ BASE_URL = "https://awsqa2.tms-orbcomm.com"
 @pytest.fixture
 def driver():
     options = webdriver.ChromeOptions()
-    # options.add_argument("--headless")  # uncomment for CI
+    options.add_argument("--headless")  # uncomment for CI
     driver = webdriver.Chrome(options=options)
     driver.implicitly_wait(10)
     yield driver
@@ -78,7 +80,7 @@ def test_all_widgets_loaded(driver):
     wait = WebDriverWait(driver, 15)
 
     driver.find_element(By.CSS_SELECTOR, "input[placeholder='Username']").send_keys(
-        "FO_CROWLEY"
+        "FO_APPLE"
     )
     driver.find_element(By.CSS_SELECTOR, "input[placeholder='Password']").send_keys(
         "test@123"
