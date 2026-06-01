@@ -1,0 +1,1372 @@
+- generic [ref=e33]:
+  - navigation [ref=e36]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - img "Maritime platform" [ref=e39]
+        - generic [ref=e40]: MARITIME
+      - generic [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - link "Home" [ref=e44] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=e45]:
+            - button "Assets " [ref=e46] [cursor=pointer]
+            - text:     
+          - listitem [ref=e47]:
+            - button "Configuration " [ref=e48] [cursor=pointer]
+            - text:  
+          - listitem [ref=e49]:
+            - button "Deployment " [ref=e50] [cursor=pointer]:
+              - text: Deployment
+              - text: 
+            - text:  
+          - listitem [ref=e51]:
+            - button "Reports " [ref=e52] [cursor=pointer]:
+              - text: Reports
+              - text: 
+            - text:   
+          - listitem [ref=e53]:
+            - button "Help " [ref=e54] [cursor=pointer]:
+              - text: Help
+              - text: 
+            - text: 
+        - list [ref=e55]:
+          - listitem [ref=e56]:
+            - button
+          - listitem [ref=e57]:
+            - button "TEST COMPANY BOARD " [ref=e70] [cursor=pointer]:
+              - text: TEST COMPANY BOARD
+              - text: 
+            - text:                                                
+          - listitem [ref=e59]:
+            - generic [ref=e60]: 
+          - listitem [ref=e61]:
+            - button "fo_crowley " [ref=e62] [cursor=pointer]
+        - list [ref=e63]:
+          - listitem [ref=e64]:
+            - button " " [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: 
+            - text:                
+          - listitem [ref=e71]:
+            - button "Switch Account " [ref=e72] [cursor=pointer]
+  - generic [ref=e69]:
+    - generic [ref=e74]:
+      - generic [ref=e76]:
+        - generic [ref=e77]: Asset Search
+        - group "Small button group" [ref=e79] [cursor=pointer]:
+          - button "" [ref=e80]:
+            - generic "Choose and Order Search Fields" [ref=e81]: 
+          - button "" [disabled] [ref=e82]:
+            - generic [ref=e83]: 
+          - button "" [ref=e84]:
+            - generic [ref=e85]: 
+      - generic [ref=e87]:
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - button "Saved Searches" [ref=e92] [cursor=pointer]
+            - generic [ref=e93]:
+              - checkbox "Default" [ref=e94]
+              - generic [ref=e95]: Default
+              - generic [ref=e96] [cursor=pointer]: 
+              - generic [ref=e97]: Click for details
+          - generic [ref=e99]:
+            - textbox "Asset ID(s)" [active] [ref=e100]
+            - menu:
+              - menuitem "Copy"
+              - menuitem "Paste"
+          - generic [ref=e102]:
+            - textbox "Active Booking Number(s)" [ref=e103]
+            - menu:
+              - menuitem "Copy"
+              - menuitem "Paste"
+          - combobox [ref=e105]:
+            - option "Geofence Status" [selected]
+            - option "Inside Geofence Only"
+            - option "Outside Geofence Only"
+          - combobox [ref=e107]:
+            - textbox "Geofence ID" [ref=e108]
+          - generic [ref=e110]:
+            - log [ref=e112]
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - generic [ref=e115]: Asset Types
+                - combobox [ref=e117]
+              - img [ref=e120] [cursor=pointer]
+          - generic [ref=e123]:
+            - log [ref=e125]
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - generic [ref=e129]: Active
+                  - button "Remove Active" [ref=e130] [cursor=pointer]:
+                    - img [ref=e131]
+                - generic [ref=e133]:
+                  - generic [ref=e134]: Disconnected
+                  - button "Remove Disconnected" [ref=e135] [cursor=pointer]:
+                    - img [ref=e136]
+                - combobox [ref=e139]
+              - generic [ref=e140]:
+                - img [ref=e142] [cursor=pointer]
+                - img [ref=e145] [cursor=pointer]
+          - combobox [ref=e148]:
+            - option "OEM Type" [selected]
+            - option "Carrier"
+            - option "Daikin"
+            - option "Genmark"
+            - option "Klinge"
+            - option "Star Cool"
+            - option "ThermoKing"
+            - option "Taylor"
+          - combobox [ref=e150]:
+            - option "Country" [selected]
+            - option "AFGHANISTAN"
+            - option "Aland Islands"
+            - option "ALBANIA"
+            - option "ALGERIA"
+            - option "AMERICAN SAMOA"
+            - option "ANDORRA"
+            - option "ANGOLA"
+            - option "ANGUILLA"
+            - option "ANTARCTICA"
+            - option "ANTIGUA AND BARBUDA"
+            - option "ARGENTINA"
+            - option "ARMENIA"
+            - option "ARUBA"
+            - option "AUSTRALIA"
+            - option "AUSTRIA"
+            - option "AZERBAIJAN"
+            - option "BAHAMAS"
+            - option "BAHRAIN"
+            - option "BANGLADESH"
+            - option "BARBADOS"
+            - option "BELARUS"
+            - option "BELGIUM"
+            - option "BELIZE"
+            - option "BENIN"
+            - option "BERMUDA"
+            - option "BHUTAN"
+            - option "BOLIVIA"
+            - option "Bonaire, Saint Eustatius and Saba"
+            - option "BOSNIA AND HERZEGOVINA"
+            - option "BOTSWANA"
+            - option "BOUVET ISLAND"
+            - option "BRAZIL"
+            - option "BRITISH INDIAN OCEAN TERRITORY"
+            - option "BRUNEI DARUSSALAM"
+            - option "BULGARIA"
+            - option "BURKINA FASO"
+            - option "BURUNDI"
+            - option "CAMBODIA"
+            - option "CAMEROON"
+            - option "CANADA"
+            - option "CAPE VERDE"
+            - option "CAYMAN ISLANDS"
+            - option "CENTRAL AFRICAN REPUBLIC"
+            - option "CHAD"
+            - option "CHILE"
+            - option "CHINA"
+            - option "CHRISTMAS ISLAND"
+            - option "COCOS (KEELING) ISLANDS"
+            - option "COLOMBIA"
+            - option "COMOROS"
+            - option "CONGO"
+            - option "COOK ISLANDS"
+            - option "COSTA RICA"
+            - option "COTE D'IVOIRE"
+            - option "CROATIA"
+            - option "CUBA"
+            - option "CURAÇAO"
+            - option "CYPRUS"
+            - option "CZECH REPUBLIC"
+            - option "DENMARK"
+            - option "DJIBOUTI"
+            - option "DOMINICA"
+            - option "DOMINICAN REPUBLIC"
+            - option "EAST TIMOR"
+            - option "ECUADOR"
+            - option "EGYPT"
+            - option "EL SALVADOR"
+            - option "EQUATORIAL GUINEA"
+            - option "ERITREA"
+            - option "ESTONIA"
+            - option "ETHIOPIA"
+            - option "FALKLAND ISLANDS (MALVINAS)"
+            - option "FAROE ISLANDS"
+            - option "FEDERATED STATES OF MICRONESIA"
+            - option "FIJI"
+            - option "FINLAND"
+            - option "FRANCE"
+            - option "FRENCH GUIANA"
+            - option "FRENCH POLYNESIA"
+            - option "FRENCH SOUTHERN TERRITORIES"
+            - option "GABON"
+            - option "GAMBIA"
+            - option "GEORGIA"
+            - option "GERMANY"
+            - option "GHANA"
+            - option "GIBRALTAR"
+            - option "GREECE"
+            - option "GREENLAND"
+            - option "GRENADA"
+            - option "GUADELOUPE"
+            - option "GUAM"
+            - option "GUATEMALA"
+            - option "Guernsey"
+            - option "GUINEA"
+            - option "GUINEA-BISSAU"
+            - option "GUYANA"
+            - option "HAITI"
+            - option "HEARD ISLAND AND MCDONALD ISLANDS"
+            - option "HOLY SEE (VATICAN CITY STATE)"
+            - option "HONDURAS"
+            - option "HONG KONG"
+            - option "HUNGARY"
+            - option "ICELAND"
+            - option "INDIA"
+            - option "INDONESIA"
+            - option "IRAQ"
+            - option "IRELAND"
+            - option "ISLAMIC REPUBLIC OF IRAN"
+            - option "Isle of Man"
+            - option "ISRAEL"
+            - option "ITALY"
+            - option "JAMAICA"
+            - option "JAPAN"
+            - option "Jersey"
+            - option "JORDAN"
+            - option "KAZAKSTAN"
+            - option "KENYA"
+            - option "KIRIBATI"
+            - option "Kosovo"
+            - option "KUWAIT"
+            - option "KYRGYZSTAN"
+            - option "LAO PEOPLE'S DEMOCRATIC REPUBLIC"
+            - option "LATVIA"
+            - option "LEBANON"
+            - option "LESOTHO"
+            - option "LIBERIA"
+            - option "LIBYAN ARAB JAMAHIRIYA"
+            - option "LIECHTENSTEIN"
+            - option "LITHUANIA"
+            - option "LUXEMBOURG"
+            - option "MACAU"
+            - option "MADAGASCAR"
+            - option "MALAWI"
+            - option "MALAYSIA"
+            - option "MALDIVES"
+            - option "MALI"
+            - option "MALTA"
+            - option "MARSHALL ISLANDS"
+            - option "MARTINIQUE"
+            - option "MAURITANIA"
+            - option "MAURITIUS"
+            - option "MAYOTTE"
+            - option "MEXICO"
+            - option "MONACO"
+            - option "MONGOLIA"
+            - option "MONTENEGRO"
+            - option "MONTSERRAT"
+            - option "MOROCCO"
+            - option "MOZAMBIQUE"
+            - option "MYANMAR"
+            - option "NAMIBIA"
+            - option "NAURU"
+            - option "NEPAL"
+            - option "NETHERLANDS"
+            - option "NETHERLANDS ANTILLES"
+            - option "NEW CALEDONIA"
+            - option "NEW ZEALAND"
+            - option "NICARAGUA"
+            - option "NIGER"
+            - option "NIGERIA"
+            - option "NIUE"
+            - option "NORFOLK ISLAND"
+            - option "NORTH KOREA"
+            - option "NORTHERN MARIANA ISLANDS"
+            - option "NORWAY"
+            - option "OMAN"
+            - option "PAKISTAN"
+            - option "PALAU"
+            - option "PALESTINIAN TERRITORY, OCCUPIED"
+            - option "PANAMA"
+            - option "PAPUA NEW GUINEA"
+            - option "PARAGUAY"
+            - option "PERU"
+            - option "PHILIPPINES"
+            - option "PITCAIRN"
+            - option "POLAND"
+            - option "PORTUGAL"
+            - option "PUERTO RICO"
+            - option "QATAR"
+            - option "REPUBLIC OF MOLDOVA"
+            - option "REUNION"
+            - option "ROMANIA"
+            - option "RUSSIAN FEDERATION"
+            - option "RWANDA"
+            - option "Saint Barthelemy"
+            - option "SAINT HELENA"
+            - option "SAINT KITTS AND NEVIS"
+            - option "SAINT LUCIA"
+            - option "Saint Martin"
+            - option "SAINT PIERRE AND MIQUELON"
+            - option "SAINT VINCENT AND THE GRENADINES"
+            - option "SAMOA"
+            - option "SAN MARINO"
+            - option "SAO TOME AND PRINCIPE"
+            - option "SATELLITE/INTERNATIONAL"
+            - option "SAUDI ARABIA"
+            - option "SENEGAL"
+            - option "Serbia"
+            - option "SEYCHELLES"
+            - option "SIERRA LEONE"
+            - option "SINGAPORE"
+            - option "Sint Maarten"
+            - option "SLOVAKIA"
+            - option "SLOVENIA"
+            - option "SOLOMON ISLANDS"
+            - option "SOMALIA"
+            - option "SOUTH AFRICA"
+            - option "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS"
+            - option "SOUTH KOREA"
+            - option "SOUTH SUDAN"
+            - option "SPAIN"
+            - option "SRI LANKA"
+            - option "SUDAN"
+            - option "SURINAME"
+            - option "SVALBARD AND JAN MAYEN"
+            - option "SWAZILAND"
+            - option "SWEDEN"
+            - option "SWITZERLAND"
+            - option "SYRIAN ARAB REPUBLIC"
+            - option "TAIWAN"
+            - option "TAJIKISTAN"
+            - option "THAILAND"
+            - option "THE DEMOCRATIC REPUBLIC OF THE CONGO"
+            - option "THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA"
+            - option "TIMOR-LESTE"
+            - option "TOGO"
+            - option "TOKELAU"
+            - option "TONGA"
+            - option "TRINIDAD AND TOBAGO"
+            - option "TUNISIA"
+            - option "TURKEY"
+            - option "TURKMENISTAN"
+            - option "TURKS AND CAICOS ISLANDS"
+            - option "TUVALU"
+            - option "UGANDA"
+            - option "UKRAINE"
+            - option "UNITED ARAB EMIRATES"
+            - option "UNITED KINGDOM"
+            - option "UNITED REPUBLIC OF TANZANIA"
+            - option "UNITED STATES"
+            - option "UNITED STATES MINOR OUTLYING ISLANDS"
+            - option "UNKNOWN"
+            - option "URUGUAY"
+            - option "UZBEKISTAN"
+            - option "VANUATU"
+            - option "VENEZUELA"
+            - option "VIET NAM"
+            - option "VIRGIN ISLANDS, BRITISH"
+            - option "VIRGIN ISLANDS, U.S."
+            - option "WALLIS AND FUTUNA"
+            - option "WESTERN SAHARA"
+            - option "YEMEN"
+            - option "YUGOSLAVIA"
+            - option "ZAMBIA"
+            - option "ZIMBABWE"
+          - combobox [ref=e152]:
+            - option "Reporting (min)" [selected]
+            - option "10"
+            - option "15"
+            - option "30"
+            - option "60"
+            - option "120"
+            - option "240"
+          - combobox [ref=e154]:
+            - textbox "Vessel" [ref=e155]
+          - combobox [ref=e157]:
+            - textbox "Voyage" [disabled] [ref=e158]
+          - combobox [ref=e160]:
+            - textbox "Call" [disabled] [ref=e161]
+          - generic [ref=e163]:
+            - log [ref=e165]
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e168]: POL
+                - combobox [ref=e170]
+              - img [ref=e173] [cursor=pointer]
+          - generic [ref=e176]:
+            - log [ref=e178]
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - generic [ref=e181]: POD
+                - combobox [ref=e183]
+              - img [ref=e186] [cursor=pointer]
+          - combobox [ref=e190]:
+            - option "Equipment Type" [selected]
+            - option "High Cube"
+            - option "Standard Height"
+          - combobox [ref=e193]:
+            - option "CA Capability" [selected]
+            - option "CA-capable"
+            - option "Not CA-capable"
+          - combobox [ref=e196]:
+            - option "Lessor Name" [selected]
+            - option "ATA INTERMODAL LTD"
+            - option "ATEL LEASING CORPORATION"
+            - option "BANC OF AMERICA LEASING & CAPITAL, LLC"
+            - option "BEACON INTERMODAL LEASING, LLC"
+            - option "CAI INTERNATIONAL INC"
+            - option "CHIQUITA BRANDS LLC"
+            - option "DE LAGE LANDEN FINANCIAL SERVICES"
+            - option "PNC EQUIPMENT FINANCE LLC"
+            - option "FLORENS ASSET MANAGEMENT (USA), LIMITED"
+            - option "PNC EQUIPMENT FINANCE LLC"
+            - option "SEACO GLOBAL LTD -NA"
+            - option "SEACUBE CONTAINERS"
+            - option "TEXTAINER EQUIPMENT MANAGEMENT"
+            - option "THE CIT GROUP EQUIPMENT FINANCING INC"
+            - option "TRAC INTERMODAL"
+            - option "TRITON CONTAINER INTERNATIONAL"
+            - option "WELLS FARGO EQUIPMENT FINANCE, INC"
+          - combobox [ref=e199]:
+            - option "Lease Number" [selected]
+            - option "001-0196700-100"
+            - option "001-0196700-101"
+            - option "1000834"
+            - option "1002772"
+            - option "1002783"
+            - option "110394"
+            - option "151756000"
+            - option "22116"
+            - option "22116A"
+            - option "25001212"
+            - option "25048338"
+            - option "25081529"
+            - option "405-0000367-001"
+            - option "43483"
+            - option "43514"
+            - option "90018201"
+            - option "CBCI016"
+            - option "CHI061518"
+            - option "CHQA-001"
+            - option "CHQX77"
+            - option "CT018437"
+            - option "CT018483"
+            - option "EAMR0266"
+            - option "EAXR0266"
+            - option "NAMR0213"
+            - option "NAMR0215"
+            - option "NAMR0216"
+            - option "OWNED"
+            - option "T09003SF"
+          - generic [ref=e202]:
+            - combobox [ref=e203]:
+              - option "=" [selected]
+              - option "<"
+              - option "<="
+              - option ">"
+              - option ">="
+              - option ">"
+              - option "<>"
+            - spinbutton [ref=e204]
+            - generic "This value must be a number greater than or equal to 1980 and less than or equal to 2029." [ref=e205]:
+              - generic [ref=e206]: 
+        - generic [ref=e207]:
+          - button "Clear" [ref=e208] [cursor=pointer]
+          - button "Search" [ref=e209] [cursor=pointer]
+    - generic [ref=e213]:
+      - generic [ref=e214]:
+        - generic [ref=e215]: Asset Map
+        - group [ref=e217] [cursor=pointer]:
+          - button "" [disabled] [ref=e218]:
+            - generic [ref=e219]: 
+          - button "" [ref=e220]:
+            - generic [ref=e221]: 
+          - button "" [ref=e222]:
+            - generic [ref=e223]: 
+      - generic [ref=e225]:
+        - textbox "Address, Business, Place, Zip code, etc." [ref=e1211]
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - generic:
+              - region "Bing Maps - Interact to see more"
+          - generic:
+            - generic [ref=e234] [cursor=pointer]:
+              - button "Road" [ref=e236]:
+                - generic [ref=e238]: Road
+              - button "Locate me" [ref=e241]:
+                - generic "Locate me"
+              - button "Current Level 4, Zoom In" [ref=e242]:
+                - generic "Zoom in"
+              - button "Current Level 4, Zoom Out" [ref=e243]:
+                - generic "Zoom out"
+            - link "Microsoft Bing" [ref=e244] [cursor=pointer]:
+              - /url: https://www.bing.com/maps?cp=22.31060028076172~79.43830108642578&lvl=4&style=r&FORM=BMLOGO
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 500 miles
+                - generic:
+                  - generic: 500 km
+              - generic:
+                - generic:
+                  - generic: © 2026 NavInfo, © 2026 TomTom, © 2026 Microsoft Corporation
+                - link "Terms" [ref=e246] [cursor=pointer]:
+                  - /url: https://www.microsoft.com/maps/assets/docs/terms.aspx
+        - generic [ref=e249] [cursor=pointer]:
+          - img "Fence"
+    - generic [ref=e252]:
+      - generic [ref=e254]:
+        - generic [ref=e255]: Reefers with Alarms – Fleet
+        - group "Small button group" [ref=e257] [cursor=pointer]:
+          - button "" [ref=e259]:
+            - generic [ref=e260]: 
+          - button "" [ref=e261]:
+            - generic [ref=e262]: 
+          - button "" [ref=e263]:
+            - generic [ref=e264]: 
+      - generic [ref=e265]:
+        - generic [ref=e267]:
+          - figure "chart, 1 series":
+            - generic [ref=e268]:
+              - img "interactive chart":
+                - generic:
+                  - img
+              - img
+          - status
+        - generic [ref=e269]:
+          - generic [ref=e270]: "Severe: 38366"
+          - generic [ref=e271]: "Minor: 19494"
+    - generic [ref=e274]:
+      - generic [ref=e276]:
+        - generic [ref=e277]: Reefer Fleet Overview
+        - group "Small button group" [ref=e279] [cursor=pointer]:
+          - button "" [ref=e281]:
+            - generic [ref=e282]: 
+          - button "" [ref=e283]:
+            - generic [ref=e284]: 
+          - button "" [ref=e285]:
+            - generic [ref=e286]: 
+      - generic [ref=e287]:
+        - generic [ref=e289]:
+          - figure "chart, 1 series":
+            - generic [ref=e290]:
+              - img "interactive chart":
+                - generic:
+                  - img
+              - img
+          - status
+        - generic [ref=e292]:
+          - generic [ref=e295] [cursor=pointer]: Operational Reefers, Running
+          - generic [ref=e298] [cursor=pointer]: Faulty Reefers, Possibly Shut Down
+          - generic [ref=e301] [cursor=pointer]: Reefers on Standby
+          - generic [ref=e304] [cursor=pointer]: Reefers Offline or Powered Down
+    - generic [ref=e308]:
+      - generic [ref=e309]:
+        - generic [ref=e310]: "Total Reefers : 67208"
+        - group "Small button group" [ref=e312] [cursor=pointer]:
+          - button "" [ref=e314]:
+            - generic [ref=e315]: 
+          - button "" [ref=e316]:
+            - generic [ref=e317]: 
+          - button "" [ref=e318]:
+            - generic [ref=e319]: 
+      - generic [ref=e321]:
+        - generic [ref=e323] [cursor=pointer]:
+          - generic [ref=e325]: 
+          - generic [ref=e326]:
+            - generic [ref=e327]: "65227"
+            - generic "Running and Operational" [ref=e328]
+        - generic [ref=e330] [cursor=pointer]:
+          - generic [ref=e332]: 
+          - generic [ref=e333]:
+            - generic [ref=e334]: "1157"
+            - generic "On Standby" [ref=e335]
+        - generic [ref=e337] [cursor=pointer]:
+          - generic [ref=e339]: 
+          - generic [ref=e340]:
+            - generic [ref=e341]: "22"
+            - generic "Shut Down or Faulty" [ref=e342]
+        - generic [ref=e344] [cursor=pointer]:
+          - generic [ref=e346]: 
+          - generic [ref=e347]:
+            - generic [ref=e348]: "802"
+            - generic "Offline or Powered Down" [ref=e349]
+    - generic [ref=e352]:
+      - generic [ref=e354]:
+        - generic [ref=e355]: Reefer Grid
+        - group "Small button group" [ref=e357] [cursor=pointer]:
+          - generic [ref=e358]:
+            - generic [ref=e359]: "Paging:"
+            - switch [ref=e363]
+          - button "" [ref=e364]:
+            - generic [ref=e365]: 
+          - button "" [ref=e366]:
+            - generic [ref=e367]: 
+          - button "" [ref=e368]:
+            - generic [ref=e369]: 
+      - generic [ref=e372]:
+        - generic [ref=e373]:
+          - generic [ref=e374]:
+            - generic [ref=e375]:
+              - generic [ref=e376] [cursor=pointer]: 
+              - generic [ref=e377]: Refresh
+              - generic [ref=e378] [cursor=pointer]: 
+              - generic [ref=e379]: Export to Excel
+              - generic [ref=e380] [cursor=pointer]: 
+              - generic [ref=e381]: Email To
+              - generic [ref=e382] [cursor=pointer]: 
+              - generic [ref=e383]: Grid Preference
+              - generic "Clear Selection" [ref=e384] [cursor=pointer]: 
+            - generic [ref=e386]:
+              - log [ref=e388]
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - generic [ref=e392]: Find Column
+                  - combobox [ref=e394]
+                - img [ref=e397] [cursor=pointer]
+          - generic [ref=e399]:
+            - textbox "Enter a value to filter the grid below. The value will be compared to all fields." [ref=e403]:
+              - /placeholder: Quick Filter
+            - group [ref=e406]:
+              - button " Clear filters" [ref=e407] [cursor=pointer]:
+                - generic [ref=e408]: 
+                - text: Clear filters
+              - button " Apply filters" [ref=e409] [cursor=pointer]:
+                - generic [ref=e410]: 
+                - text: Apply filters
+        - generic [ref=e412]:
+          - generic [ref=e414]: 
+          - listbox "Row Groups" [ref=e415]:
+            - generic [ref=e416]: Drag here to set row groups
+          - text: 
+          - grid [ref=e417]:
+            - rowgroup [ref=e418]:
+              - row "State Indicators  Identification  Booking  Report Date/Time and Location " [ref=e419]:
+                - columnheader "State Indicators " [ref=e420]:
+                  - text: State Indicators 
+                  - generic [ref=e421] [cursor=pointer]: 
+                - columnheader "Identification " [ref=e423]:
+                  - text: Identification 
+                  - generic [ref=e424] [cursor=pointer]: 
+                - columnheader "Booking " [ref=e426]:
+                  - text: Booking 
+                  - generic [ref=e427] [cursor=pointer]: 
+                - columnheader "Report Date/Time and Location " [ref=e429]:
+                  - text: Report Date/Time and Location 
+                  - generic [ref=e430] [cursor=pointer]: 
+              - 'row "CC ALM RUN PWR BATT OEM Reefer ID Booking # CC profile CC alerts Event" [ref=e432]':
+                - columnheader "CC" [ref=e433]:
+                  - text: 
+                  - generic [ref=e435] [cursor=pointer]: 
+                  - generic [ref=e436] [cursor=pointer]: CC
+                  - text: 
+                  - generic:    
+                - columnheader "ALM" [ref=e437]:
+                  - text: 
+                  - generic [ref=e439] [cursor=pointer]: 
+                  - generic [ref=e440] [cursor=pointer]: ALM
+                  - text: 
+                  - generic:    
+                - columnheader "RUN" [ref=e441]:
+                  - text: 
+                  - generic [ref=e443] [cursor=pointer]: 
+                  - generic [ref=e444] [cursor=pointer]: RUN
+                  - text: 
+                  - generic:    
+                - columnheader "PWR" [ref=e445]:
+                  - text: 
+                  - generic [ref=e447] [cursor=pointer]: 
+                  - generic [ref=e448] [cursor=pointer]: PWR
+                  - text: 
+                  - generic:    
+                - columnheader "BATT" [ref=e449]:
+                  - text: 
+                  - generic [ref=e451] [cursor=pointer]: 
+                  - generic [ref=e452] [cursor=pointer]: BATT
+                  - text: 
+                  - generic:    
+                - columnheader "OEM" [ref=e453]:
+                  - text: 
+                  - generic [ref=e455] [cursor=pointer]: 
+                  - generic [ref=e456] [cursor=pointer]: OEM
+                  - text: 
+                  - generic:    
+                - columnheader "Reefer ID" [ref=e457]:
+                  - text: 
+                  - generic [ref=e459] [cursor=pointer]: 
+                  - generic [ref=e460] [cursor=pointer]: 
+                  - generic [ref=e461] [cursor=pointer]: Reefer ID
+                  - generic:    
+                - 'columnheader "Booking #" [ref=e462]':
+                  - text: 
+                  - generic [ref=e464] [cursor=pointer]: 
+                  - generic [ref=e465] [cursor=pointer]: 
+                  - generic [ref=e466] [cursor=pointer]: "Booking #"
+                  - generic:    
+                - columnheader "CC profile" [ref=e467]:
+                  - text: 
+                  - generic [ref=e469] [cursor=pointer]: 
+                  - generic [ref=e470] [cursor=pointer]: 
+                  - generic [ref=e471] [cursor=pointer]: CC profile
+                  - generic:    
+                - columnheader "CC alerts" [ref=e472]:
+                  - text: 
+                  - generic [ref=e474] [cursor=pointer]: 
+                  - generic [ref=e475] [cursor=pointer]: CC alerts
+                  - text: 
+                  - generic:    
+                - columnheader "Event" [ref=e476]:
+                  - text: 
+                  - generic [ref=e478] [cursor=pointer]: 
+                  - generic [ref=e479] [cursor=pointer]: 
+                  - generic [ref=e480] [cursor=pointer]: Event
+                  - generic:    
+            - rowgroup [ref=e481]
+            - rowgroup
+            - rowgroup [ref=e482]
+            - rowgroup
+            - generic: No Rows To Show
+          - text:    
+        - generic [ref=e486]:
+          - generic [ref=e488]:
+            - text: "Page Size :"
+            - combobox [ref=e489]:
+              - option "25" [selected]
+              - option "50"
+              - option "75"
+              - option "100"
+              - option "250"
+          - generic [ref=e490]:
+            - text: 0 to 0 of 0
+            - button "" [disabled] [ref=e491]
+            - button "" [disabled] [ref=e492]
+            - generic [ref=e493]: Page 0 of 0
+            - button "" [disabled] [ref=e494]
+            - button "" [disabled] [ref=e495]
+    - generic [ref=e498]:
+      - generic [ref=e500]:
+        - generic [ref=e501]: Reefer History Grid
+        - group "Small button group" [ref=e503] [cursor=pointer]:
+          - button "" [ref=e504]:
+            - generic [ref=e505]: 
+          - button "" [ref=e506]:
+            - generic [ref=e507]: 
+          - button "" [ref=e508]:
+            - generic [ref=e509]: 
+      - generic [ref=e512]:
+        - generic [ref=e513]:
+          - generic [ref=e514]:
+            - generic [ref=e515]:
+              - generic [ref=e516] [cursor=pointer]: 
+              - generic [ref=e517]: Refresh
+              - generic [ref=e518] [cursor=pointer]: 
+              - generic [ref=e519]: Export to Excel
+              - generic [ref=e520] [cursor=pointer]: 
+              - generic [ref=e521]: Email To
+              - generic [ref=e522] [cursor=pointer]: 
+              - generic [ref=e523]: Grid Preference
+              - generic [ref=e524] [cursor=pointer]: 
+              - generic [ref=e525]: Reefer Monitoring Data
+            - generic [ref=e527]:
+              - log [ref=e529]
+              - generic [ref=e531]:
+                - generic [ref=e532]:
+                  - generic [ref=e533]: Find Column
+                  - combobox [ref=e535]
+                - img [ref=e538] [cursor=pointer]
+          - generic [ref=e541]:
+            - generic [ref=e542]: From
+            - textbox [ref=e545]: 05/31/2026 12:00 AM
+            - generic [ref=e546]: To
+            - textbox [ref=e549]: 06/01/2026 11:59 PM
+            - button "Search" [ref=e550] [cursor=pointer]
+        - generic [ref=e552]:
+          - generic [ref=e554]: 
+          - listbox "Row Groups" [ref=e555]:
+            - generic [ref=e556]: Drag here to set row groups
+          - text: 
+          - grid [ref=e557]:
+            - rowgroup [ref=e1005]:
+              - row "State Indicators History  Reefer Status History " [ref=e1006]:
+                - columnheader "State Indicators History " [ref=e1007]:
+                  - text: State Indicators History 
+                  - generic [ref=e1008] [cursor=pointer]: 
+                - columnheader "Reefer Status History " [ref=e1010]:
+                  - text: Reefer Status History 
+                  - generic [ref=e1011] [cursor=pointer]: 
+              - row "RUN Opr mode" [ref=e1013]:
+                - columnheader "RUN" [ref=e1014]:
+                  - text: 
+                  - generic [ref=e1016] [cursor=pointer]: 
+                  - generic [ref=e1017] [cursor=pointer]: 
+                  - generic [ref=e1018] [cursor=pointer]: RUN
+                  - generic:    
+                - columnheader "Opr mode" [ref=e1019]:
+                  - text: 
+                  - generic [ref=e1021] [cursor=pointer]: 
+                  - generic [ref=e1022] [cursor=pointer]: Opr mode
+                  - text: 
+                  - generic:    
+            - rowgroup [ref=e1023]:
+              - row "Identification History State Indicators History " [ref=e1024]:
+                - columnheader "Identification History" [ref=e1025]: Identification History  
+                - columnheader "State Indicators History " [ref=e1027]:
+                  - text: State Indicators History 
+                  - generic [ref=e1028] [cursor=pointer]: 
+              - row "CC ALM PWR BATT VSL TRIP VVC dep VVC arr INV OEM Reefer ID" [ref=e1030]:
+                - columnheader "CC" [ref=e1031]:
+                  - text: 
+                  - generic [ref=e1033] [cursor=pointer]: 
+                  - generic [ref=e1034] [cursor=pointer]: 
+                  - generic [ref=e1035] [cursor=pointer]: CC
+                  - generic:    
+                - columnheader "ALM" [ref=e1036]:
+                  - text: 
+                  - generic [ref=e1038] [cursor=pointer]: 
+                  - generic [ref=e1039] [cursor=pointer]: 
+                  - generic [ref=e1040] [cursor=pointer]: ALM
+                  - generic:    
+                - columnheader "PWR" [ref=e1041]:
+                  - text: 
+                  - generic [ref=e1043] [cursor=pointer]: 
+                  - generic [ref=e1044] [cursor=pointer]: 
+                  - generic [ref=e1045] [cursor=pointer]: PWR
+                  - generic:    
+                - columnheader "BATT" [ref=e1046]:
+                  - text: 
+                  - generic [ref=e1048] [cursor=pointer]: 
+                  - generic [ref=e1049] [cursor=pointer]: 
+                  - generic [ref=e1050] [cursor=pointer]: BATT
+                  - generic:    
+                - columnheader "VSL" [ref=e1051]:
+                  - text: 
+                  - generic [ref=e1053] [cursor=pointer]: 
+                  - generic [ref=e1054] [cursor=pointer]: VSL
+                  - text: 
+                  - generic:    
+                - columnheader "TRIP" [ref=e1055]:
+                  - text: 
+                  - generic [ref=e1057] [cursor=pointer]: 
+                  - generic [ref=e1058] [cursor=pointer]: TRIP
+                  - text: 
+                  - generic:    
+                - columnheader "VVC dep" [ref=e1059]:
+                  - text: 
+                  - generic [ref=e1061] [cursor=pointer]: 
+                  - generic [ref=e1062] [cursor=pointer]: 
+                  - generic [ref=e1063] [cursor=pointer]: VVC dep
+                  - generic:    
+                - columnheader "VVC arr" [ref=e1064]:
+                  - text: 
+                  - generic [ref=e1066] [cursor=pointer]: 
+                  - generic [ref=e1067] [cursor=pointer]: 
+                  - generic [ref=e1068] [cursor=pointer]: VVC arr
+                  - generic:    
+                - columnheader "INV" [ref=e1069]:
+                  - text: 
+                  - generic [ref=e1071] [cursor=pointer]: 
+                  - generic [ref=e1072] [cursor=pointer]: INV
+                  - text: 
+                  - generic:    
+                - columnheader "OEM" [ref=e1073]:
+                  - text: 
+                  - generic [ref=e1075] [cursor=pointer]: 
+                  - generic [ref=e1076] [cursor=pointer]: 
+                  - generic [ref=e1077] [cursor=pointer]: OEM
+                  - generic:    
+                - columnheader "Reefer ID" [ref=e1078]:
+                  - text: 
+                  - generic [ref=e1080] [cursor=pointer]: 
+                  - generic [ref=e1081] [cursor=pointer]: 
+                  - generic [ref=e1082] [cursor=pointer]: Reefer ID
+                  - generic:    
+            - rowgroup [ref=e1083]
+            - rowgroup [ref=e1084]
+            - rowgroup
+            - rowgroup
+            - rowgroup [ref=e1085]
+            - rowgroup
+            - generic: No Rows To Show
+          - text:    
+        - generic [ref=e558]:
+          - generic [ref=e560]:
+            - text: "Page Size :"
+            - combobox [ref=e561]:
+              - option "25" [selected]
+              - option "50"
+              - option "75"
+              - option "100"
+              - option "250"
+          - generic [ref=e562]:
+            - text: 0 to 0 of 0
+            - button "" [disabled] [ref=e563]
+            - button "" [disabled] [ref=e564]
+            - generic [ref=e565]: Page 0 of 0
+            - button "" [disabled] [ref=e566]
+            - button "" [disabled] [ref=e567]
+    - generic [ref=e570]:
+      - group "Small button group" [ref=e574] [cursor=pointer]:
+        - button "" [ref=e575]:
+          - generic [ref=e576]: 
+        - button "" [ref=e577]:
+          - generic [ref=e578]: 
+      - generic [ref=e580]:
+        - generic [ref=e581]:
+          - button "Refresh" [ref=e583] [cursor=pointer]:
+            - generic [ref=e584]: 
+          - generic [ref=e586]:
+            - generic [ref=e587]: From
+            - textbox [ref=e590]: 05/31/2026 12:00 AM
+            - generic [ref=e591]: To
+            - textbox [ref=e594]: 06/01/2026 11:59 PM
+            - button "Search" [ref=e595] [cursor=pointer]
+        - generic [ref=e597]: No Data Available
+    - generic [ref=e600]:
+      - generic [ref=e602]:
+        - generic [ref=e603]: PTI Results
+        - group "Small button group" [ref=e605] [cursor=pointer]:
+          - button "" [ref=e607]:
+            - generic [ref=e608]: 
+          - button "" [ref=e609]:
+            - generic [ref=e610]: 
+          - button "" [ref=e611]:
+            - generic [ref=e612]: 
+          - button "" [ref=e613]:
+            - generic [ref=e614]: 
+      - generic [ref=e618]:
+        - generic [ref=e619]:
+          - generic [ref=e621]:
+            - generic [ref=e622] [cursor=pointer]: 
+            - generic [ref=e623]: Refresh
+            - generic [ref=e624] [cursor=pointer]: 
+            - generic [ref=e625]: Export to Excel
+            - generic [ref=e626] [cursor=pointer]: 
+            - generic [ref=e627]: Email To
+            - generic [ref=e628] [cursor=pointer]: 
+            - generic [ref=e629]: Grid Preference
+          - group [ref=e632]:
+            - button " Apply filters" [ref=e633] [cursor=pointer]:
+              - generic [ref=e634]: 
+              - text: Apply filters
+        - generic [ref=e636]:
+          - generic [ref=e638]: 
+          - listbox "Row Groups" [ref=e639]:
+            - generic [ref=e640]: Drag here to set row groups
+          - text: 
+          - grid [ref=e641]:
+            - rowgroup [ref=e642]:
+              - row [ref=e643]:
+                - columnheader [ref=e644]:  
+              - row "Reefer ID PTI PTI Type PTI time (UTC) OEM PTI state OEM PTI time (UTC) Device fence Server fence Vessel" [ref=e646]:
+                - columnheader "Reefer ID" [ref=e647]:
+                  - text: 
+                  - generic [ref=e649] [cursor=pointer]: 
+                  - generic [ref=e650] [cursor=pointer]: 
+                  - generic [ref=e651] [cursor=pointer]: Reefer ID
+                  - generic:    
+                - columnheader "PTI" [ref=e652]:
+                  - text: 
+                  - generic [ref=e654] [cursor=pointer]: 
+                  - generic [ref=e655] [cursor=pointer]: 
+                  - generic [ref=e656] [cursor=pointer]: PTI
+                  - generic:    
+                - columnheader "PTI Type" [ref=e657]:
+                  - text: 
+                  - generic [ref=e659] [cursor=pointer]: 
+                  - generic [ref=e660] [cursor=pointer]: 
+                  - generic [ref=e661] [cursor=pointer]: PTI Type
+                  - generic:    
+                - columnheader "PTI time (UTC)" [ref=e662]:
+                  - text: 
+                  - generic [ref=e664] [cursor=pointer]: 
+                  - generic [ref=e665] [cursor=pointer]: 
+                  - generic [ref=e666] [cursor=pointer]: PTI time (UTC)
+                  - generic:    
+                - columnheader "OEM PTI state" [ref=e667]:
+                  - text: 
+                  - generic [ref=e669] [cursor=pointer]: 
+                  - generic [ref=e670] [cursor=pointer]: 
+                  - generic [ref=e671] [cursor=pointer]: OEM PTI state
+                  - generic:    
+                - columnheader "OEM PTI time (UTC)" [ref=e672]:
+                  - text: 
+                  - generic [ref=e674] [cursor=pointer]: 
+                  - generic [ref=e675] [cursor=pointer]: 
+                  - generic [ref=e676] [cursor=pointer]: OEM PTI time (UTC)
+                  - generic:    
+                - columnheader "Device fence" [ref=e677]:
+                  - text: 
+                  - generic [ref=e679] [cursor=pointer]: 
+                  - generic [ref=e680] [cursor=pointer]: 
+                  - generic [ref=e681] [cursor=pointer]: Device fence
+                  - generic:    
+                - columnheader "Server fence" [ref=e682]:
+                  - text: 
+                  - generic [ref=e684] [cursor=pointer]: 
+                  - generic [ref=e685] [cursor=pointer]: 
+                  - generic [ref=e686] [cursor=pointer]: Server fence
+                  - generic:    
+                - columnheader "Vessel" [ref=e687]:
+                  - text: 
+                  - generic [ref=e689] [cursor=pointer]: 
+                  - generic [ref=e690] [cursor=pointer]: 
+                  - generic [ref=e691] [cursor=pointer]: Vessel
+                  - generic:    
+            - rowgroup [ref=e692]
+            - rowgroup
+            - rowgroup [ref=e693]
+            - rowgroup
+            - generic: No Rows To Show
+          - text:    
+        - generic [ref=e698]:
+          - text: 0 to 0 of 0
+          - button "" [disabled] [ref=e699]
+          - button "" [disabled] [ref=e700]
+          - generic [ref=e701]: Page 0 of 0
+          - button "" [disabled] [ref=e702]
+          - button "" [disabled] [ref=e703]
+    - generic [ref=e706]:
+      - generic [ref=e708]:
+        - generic [ref=e709]: CargoCare Alerts - Fleet
+        - group "Small button group" [ref=e711] [cursor=pointer]:
+          - button "Filter Profiles" [ref=e712]:
+            - generic [ref=e713]: 
+          - button "" [ref=e715]:
+            - generic [ref=e716]: 
+          - button "" [ref=e717]:
+            - generic [ref=e718]: 
+          - button "" [ref=e719]:
+            - generic [ref=e720]: 
+      - generic [ref=e721]:
+        - img "All Alert by Severity" [ref=e724]:
+          - generic [ref=e1215]: Profile Code
+          - generic [ref=e1217]: Active Alert Counts
+          - generic [ref=e741]: All Alert by Severity
+          - generic [ref=e1219]: DEFAULT
+          - generic [ref=e1220]:
+            - generic [ref=e1221]: "0"
+            - generic [ref=e1222]: "200"
+            - generic [ref=e1223]: "400"
+            - generic [ref=e1224]: "600"
+            - generic [ref=e1225]: "800"
+            - generic [ref=e1226]: "1000"
+        - generic [ref=e751]:
+          - generic [ref=e752]: Severe:871
+          - generic [ref=e753]: "Minor: 15"
+          - generic [ref=e754]: Informational :78
+    - generic [ref=e757]:
+      - generic [ref=e759]:
+        - generic [ref=e760]: Cold Treatment
+        - group "Small button group" [ref=e762] [cursor=pointer]:
+          - button "Filter Profiles" [ref=e764]:
+            - generic [ref=e765]: 
+          - button "" [ref=e766]:
+            - generic [ref=e767]: 
+          - button "" [ref=e768]:
+            - generic [ref=e769]: 
+      - generic [ref=e772]:
+        - figure "chart, 1 series":
+          - generic [ref=e773]:
+            - img "interactive chart":
+              - generic:
+                - img
+            - img
+          - text: Cold Treatment Counts
+        - status
+    - generic [ref=e777]:
+      - generic [ref=e778]:
+        - generic [ref=e779]: "Total Drys : 1380"
+        - group "Small button group" [ref=e781] [cursor=pointer]:
+          - button "" [ref=e783]:
+            - generic [ref=e784]: 
+          - button "" [ref=e785]:
+            - generic [ref=e786]: 
+          - button "" [ref=e787]:
+            - generic [ref=e788]: 
+      - generic [ref=e790]:
+        - generic [ref=e792] [cursor=pointer]:
+          - generic [ref=e793]:
+            - img "Responsive image"
+          - generic [ref=e794]:
+            - generic [ref=e795]: "41"
+            - generic "Inside Geofence" [ref=e796]
+        - generic [ref=e798] [cursor=pointer]:
+          - generic [ref=e799]:
+            - img "Responsive image"
+          - generic [ref=e800]:
+            - generic [ref=e801]: "1339"
+            - generic "Outside Geofence" [ref=e802]
+    - generic [ref=e805]:
+      - generic [ref=e807]:
+        - generic [ref=e808]: Dry Grid
+        - group "Small button group" [ref=e810] [cursor=pointer]:
+          - button "" [ref=e811]:
+            - generic [ref=e812]: 
+          - button "" [ref=e813]:
+            - generic [ref=e814]: 
+          - button "" [ref=e815]:
+            - generic [ref=e816]: 
+      - generic [ref=e819]:
+        - generic [ref=e822]:
+          - generic [ref=e823] [cursor=pointer]: 
+          - generic [ref=e824]: Refresh
+          - generic [ref=e825] [cursor=pointer]: 
+          - generic [ref=e826]: Export to Excel
+          - generic [ref=e827] [cursor=pointer]: 
+          - generic [ref=e828]: Email To
+          - generic [ref=e829] [cursor=pointer]: 
+          - generic [ref=e830]: Grid Preference
+          - generic "Clear Selection" [ref=e831] [cursor=pointer]: 
+        - generic [ref=e833]:
+          - text:  
+          - grid [ref=e835]:
+            - rowgroup [ref=e1090]:
+              - row "State Indicators  Assignments Identification Booking Report Date/Time and Location " [ref=e1091]:
+                - columnheader "State Indicators " [ref=e1092]:
+                  - text: State Indicators 
+                  - generic [ref=e1093] [cursor=pointer]: 
+                - columnheader "Assignments" [ref=e1095]: Assignments  
+                - columnheader "Identification" [ref=e1097]: Identification  
+                - columnheader "Booking" [ref=e1099]: Booking  
+                - columnheader "Report Date/Time and Location " [ref=e1101]:
+                  - text: Report Date/Time and Location 
+                  - generic [ref=e1102] [cursor=pointer]: 
+              - 'row "CC CC alerts PWR BATT VSL Assigned to Dry ID Booking # CC profile Event Event time (UTC)" [ref=e1104]':
+                - columnheader "CC" [ref=e1105]:
+                  - text: 
+                  - generic [ref=e1107] [cursor=pointer]: 
+                  - generic [ref=e1108] [cursor=pointer]: CC
+                  - text: 
+                  - generic:    
+                - columnheader "CC alerts" [ref=e1109]:
+                  - text: 
+                  - generic [ref=e1111] [cursor=pointer]: 
+                  - generic [ref=e1112] [cursor=pointer]: CC alerts
+                  - text: 
+                  - generic:    
+                - columnheader "PWR" [ref=e1113]:
+                  - text: 
+                  - generic [ref=e1115] [cursor=pointer]: 
+                  - generic [ref=e1116] [cursor=pointer]: PWR
+                  - text: 
+                  - generic:    
+                - columnheader "BATT" [ref=e1117]:
+                  - text: 
+                  - generic [ref=e1119] [cursor=pointer]: 
+                  - generic [ref=e1120] [cursor=pointer]: BATT
+                  - text: 
+                  - generic:    
+                - columnheader "VSL" [ref=e1121]:
+                  - text: 
+                  - generic [ref=e1123] [cursor=pointer]: 
+                  - generic [ref=e1124] [cursor=pointer]: VSL
+                  - text: 
+                  - generic:    
+                - columnheader "Assigned to" [ref=e1125]:
+                  - text: 
+                  - generic [ref=e1127] [cursor=pointer]: 
+                  - generic [ref=e1128] [cursor=pointer]: Assigned to
+                  - text: 
+                  - generic:    
+                - columnheader "Dry ID" [ref=e1129]:
+                  - text: 
+                  - generic [ref=e1131] [cursor=pointer]: 
+                  - generic [ref=e1132] [cursor=pointer]: Dry ID
+                  - text: 
+                  - generic:    
+                - 'columnheader "Booking #" [ref=e1133]':
+                  - text: 
+                  - generic [ref=e1135] [cursor=pointer]: 
+                  - generic [ref=e1136] [cursor=pointer]: 
+                  - generic [ref=e1137] [cursor=pointer]: "Booking #"
+                  - generic:    
+                - columnheader "CC profile" [ref=e1138]:
+                  - text: 
+                  - generic [ref=e1140] [cursor=pointer]: 
+                  - generic [ref=e1141] [cursor=pointer]: 
+                  - generic [ref=e1142] [cursor=pointer]: CC profile
+                  - generic:    
+                - columnheader "Event" [ref=e1143]:
+                  - text: 
+                  - generic [ref=e1145] [cursor=pointer]: 
+                  - generic [ref=e1146] [cursor=pointer]: Event
+                  - text: 
+                  - generic:    
+                - columnheader "Event time (UTC)" [ref=e1147]:
+                  - text: 
+                  - generic [ref=e1149] [cursor=pointer]: 
+                  - generic [ref=e1150] [cursor=pointer]: Event time (UTC)
+                  - text: 
+                  - generic:    
+            - rowgroup [ref=e1151]
+            - rowgroup
+            - rowgroup [ref=e1152]
+            - rowgroup
+            - generic: No Rows To Show
+          - text:    
+      - generic [ref=e840]:
+        - generic [ref=e841]:
+          - text: "Page Size:"
+          - combobox [ref=e842]:
+            - option "1000" [selected]
+        - generic [ref=e843]:
+          - text: 0 to 0 of 0
+          - button [disabled] [ref=e844]:
+            - generic [ref=e845]: 
+          - button [disabled] [ref=e846]:
+            - generic [ref=e847]: 
+          - text: Page 0 of 0
+          - button [ref=e848] [cursor=pointer]:
+            - generic [ref=e849]: 
+          - button [ref=e850] [cursor=pointer]:
+            - generic [ref=e851]: 
+    - generic [ref=e854]:
+      - generic [ref=e856]:
+        - generic [ref=e857]: Dry History Grid
+        - group "Small button group" [ref=e859] [cursor=pointer]:
+          - button "" [ref=e860]:
+            - generic [ref=e861]: 
+          - button "" [ref=e862]:
+            - generic [ref=e863]: 
+          - button "" [ref=e864]:
+            - generic [ref=e865]: 
+      - generic [ref=e871]:
+        - generic [ref=e872]:
+          - generic [ref=e874]:
+            - generic [ref=e875] [cursor=pointer]: 
+            - generic [ref=e876]: Refresh
+            - generic [ref=e877] [cursor=pointer]: 
+            - generic [ref=e878]: Export to Excel
+            - generic [ref=e879] [cursor=pointer]: 
+            - generic [ref=e880]: Email To
+            - generic [ref=e881] [cursor=pointer]: 
+            - generic [ref=e882]: Grid Preference
+          - generic [ref=e883]:
+            - textbox "Enter a value to filter the grid below. The value will be compared to all fields." [ref=e887]:
+              - /placeholder: Quick Filter
+            - generic [ref=e888]:
+              - generic [ref=e889]: From
+              - textbox [ref=e892]: 05/31/2026 12:00 AM
+              - generic [ref=e893]: To
+              - textbox [ref=e896]: 06/01/2026 11:59 PM
+              - button "Search" [ref=e897] [cursor=pointer]
+        - generic [ref=e899]:
+          - generic [ref=e901]: 
+          - listbox "Row Groups" [ref=e902]:
+            - generic [ref=e903]: Drag here to set row groups
+          - text: 
+          - grid [ref=e904]:
+            - rowgroup [ref=e905]:
+              - row "State Indicators Latest Event Booking History Latest Event" [ref=e1154]:
+                - columnheader "State Indicators" [ref=e1155]: State Indicators  
+                - columnheader "Latest Event" [ref=e1157]: Latest Event  
+                - columnheader "Booking History" [ref=e1159]: Booking History  
+                - columnheader "Latest Event" [ref=e1161]: Latest Event  
+              - 'row "CC CC alerts PWR BATT VSL Dry ID Booking # CC profile Event Event time (UTC)" [ref=e1163]':
+                - columnheader "CC" [ref=e1164]:
+                  - text: 
+                  - generic [ref=e1166] [cursor=pointer]: 
+                  - generic [ref=e1167] [cursor=pointer]: CC
+                  - text: 
+                  - generic:    
+                - columnheader "CC alerts" [ref=e1168]:
+                  - text: 
+                  - generic [ref=e1170] [cursor=pointer]: 
+                  - generic [ref=e1171] [cursor=pointer]: CC alerts
+                  - text: 
+                  - generic:    
+                - columnheader "PWR" [ref=e1172]:
+                  - text: 
+                  - generic [ref=e1174] [cursor=pointer]: 
+                  - generic [ref=e1175] [cursor=pointer]: 
+                  - generic [ref=e1176] [cursor=pointer]: PWR
+                  - generic:    
+                - columnheader "BATT" [ref=e1177]:
+                  - text: 
+                  - generic [ref=e1179] [cursor=pointer]: 
+                  - generic [ref=e1180] [cursor=pointer]: 
+                  - generic [ref=e1181]: BATT
+                  - generic: 
+                - columnheader "VSL" [ref=e1182]:
+                  - text: 
+                  - generic [ref=e1184] [cursor=pointer]: 
+                  - generic [ref=e1185] [cursor=pointer]: VSL
+                  - text: 
+                  - generic:    
+                - columnheader "Dry ID" [ref=e1186]:
+                  - text: 
+                  - generic [ref=e1188] [cursor=pointer]: 
+                  - generic [ref=e1189] [cursor=pointer]: 
+                  - generic [ref=e1190] [cursor=pointer]: Dry ID
+                  - generic:    
+                - 'columnheader "Booking #" [ref=e1191]':
+                  - text: 
+                  - generic [ref=e1193] [cursor=pointer]: 
+                  - generic [ref=e1194] [cursor=pointer]: 
+                  - generic [ref=e1195] [cursor=pointer]: "Booking #"
+                  - generic:    
+                - columnheader "CC profile" [ref=e1196]:
+                  - text: 
+                  - generic [ref=e1198] [cursor=pointer]: 
+                  - generic [ref=e1199] [cursor=pointer]: 
+                  - generic [ref=e1200] [cursor=pointer]: CC profile
+                  - generic:    
+                - columnheader "Event" [ref=e1201]:
+                  - text: 
+                  - generic [ref=e1203] [cursor=pointer]: 
+                  - generic [ref=e1204] [cursor=pointer]: 
+                  - generic [ref=e1205] [cursor=pointer]: Event
+                  - generic:    
+                - columnheader "Event time (UTC)" [ref=e1206]:
+                  - text: 
+                  - generic [ref=e1208] [cursor=pointer]: 
+                  - generic [ref=e1209] [cursor=pointer]: 
+                  - generic [ref=e1210] [cursor=pointer]: Event time (UTC)
+                  - generic:    
+            - rowgroup [ref=e962]
+            - rowgroup
+            - rowgroup [ref=e963]
+            - rowgroup
+            - generic: No Rows To Show
+          - text:    
+        - generic [ref=e967]:
+          - generic [ref=e969]:
+            - text: "Page Size :"
+            - combobox [ref=e970]:
+              - option "25" [selected]
+              - option "50"
+              - option "75"
+              - option "100"
+              - option "250"
+          - generic [ref=e971]:
+            - text: 0 to 0 of 0
+            - button "" [disabled] [ref=e972]
+            - button "" [disabled] [ref=e973]
+            - generic [ref=e974]: Page 0 of 0
+            - button "" [disabled] [ref=e975]
+            - button "" [disabled] [ref=e976]
+    - generic [ref=e979]:
+      - generic [ref=e981]:
+        - generic [ref=e982]: Dry Fleet Overview
+        - group "Small button group" [ref=e984] [cursor=pointer]:
+          - button "" [ref=e986]:
+            - generic [ref=e987]: 
+          - button "" [ref=e988]:
+            - generic [ref=e989]: 
+          - button "" [ref=e990]:
+            - generic [ref=e991]: 
+      - generic [ref=e992]:
+        - generic [ref=e994]:
+          - figure "chart, 1 series":
+            - generic [ref=e995]:
+              - img "interactive chart":
+                - generic:
+                  - img
+              - img
+          - status
+        - generic [ref=e997]:
+          - generic [ref=e1000] [cursor=pointer]: Drys Inside Geofence
+          - generic [ref=e1003] [cursor=pointer]: Drys Outside Geofence

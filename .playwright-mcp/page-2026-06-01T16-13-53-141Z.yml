@@ -1,0 +1,27 @@
+- generic:
+  - spinbutton "Loading Maritime platform" [ref=e1]:
+    - generic [ref=e2]: Loading Maritime platform....
+  - generic [ref=e3]:
+    - generic "Login Section" [ref=e4]:
+      - generic [ref=e7]:
+        - img "Maritime platform" [ref=e8]
+        - text: MARITIME
+      - generic [ref=e9]:
+        - generic "Login Username" [ref=e10]:
+          - textbox "Username" [active] [ref=e11]
+        - generic [ref=e13]:
+          - textbox "Password field" [ref=e14]:
+            - /placeholder: Password
+          - generic [ref=e16]: 
+        - checkbox "Remember Me" [ref=e17]:
+          - checkbox "Remember me" [ref=e18]
+          - generic [ref=e19]: Remember me
+        - button "Sign In" [ref=e21] [cursor=pointer]
+        - link "Forgot Password Link" [ref=e22] [cursor=pointer]: Forgot password?
+        - separator "Sign In Divider" [ref=e23]:
+          - generic [ref=e24]: or
+        - button "Microsoft Sign-In Sign in with Microsoft" [ref=e25] [cursor=pointer]:
+          - img "Microsoft Sign-In" [ref=e27]
+          - generic [ref=e28]: Sign in with Microsoft
+    - contentinfo "Footer Section" [ref=e29]:
+      - generic [ref=e30]: © ORBCOMM 2026 All Rights Reserved

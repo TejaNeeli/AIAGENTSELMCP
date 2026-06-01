@@ -1,17 +1,30 @@
 import pytest
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
 
+
+def pytest_addoption(parser):
+    parser.addoption(
+        "--browser_name",action="store",default = "chrome"
+    )
+driver = None
 
 @pytest.fixture(scope="session")
-def driver():
-    """Session-scoped WebDriver fixture with automatic ChromeDriver management."""
-    options = webdriver.ChromeOptions()
-    options.add_argument("--start-maximized")
-    # Uncomment for headless execution:
-    # options.add_argument("--headless=new")
-    service = ChromeService(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options)
-    yield driver
+def driver(request):
+    global driver
+    Chrome_options = webdriver.ChromeOptions()
+    Chrome_options.add_argument("--ignore-certificate-errors")
+    Edge_options = webdriver.EdgeOptions()
+    Edge_options.add_argument("--ignore-certificate-errors")
+    browsername = request.config.getoption("browser_name")
+    if browsername == "chrome":
+        driver = webdriver.Chrome(options = Chrome_options)
+    elif browsername == "firefox":
+        driver = webdriver.Firefox()
+    elif browsername == "edge":
+        driver = webdriver.Edge(options = Edge_options)
+    driver.get("https://awsqa2.tms-orbcomm.com/home")
+    driver.maximize_window()
+    # driver.implicitly_wait(120)
+    request.cls.driver = driver
+    yield
     driver.quit()

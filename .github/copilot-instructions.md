@@ -113,7 +113,7 @@ Steps:
 1. start_browser (chrome, headless: false)
 2. navigate → login URL
 3. screenshot — login page
-4. send_keys → #username or input[name=email] → FO_CROWLEY
+4. send_keys → #username or input[name=email] → FO_APPLE
 5. send_keys → #password or input[type=password] → test@123
 6. interact → click → button[type=submit]
 7. screenshot — post-submit
@@ -178,6 +178,119 @@ Steps:
 7. close_session
 8. Report
 ```
+
+### Scenario 5 — Asset Search Widget — Paste Asset ID and Click Search
+
+**Trigger phrase:** "Reefer search", "paste asset ID", "Asset Search: reefer", "paste reefer ID"
+
+```
+Steps:
+1. (Continuing from Scenario 1 — Login Flow) After successful login and landing on dashboard
+2. screenshot — dashboard_loaded.png
+3. Assert: 'Asset Search' widget is visible on dashboard
+4. interact → locate → Asset Search widget
+       → div[id='asset-search'] OR
+       → div[class*='asset-search'] OR
+       → widget with header text 'Asset Search'
+5. interact → click → Asset ID input field inside widget
+       → input[name='assetId'] OR
+       → input[placeholder*='Asset'] OR
+       → #assetSearchInput
+6. send_keys → Asset ID input → DFRD0000027
+7. screenshot — asset_id_entered.png
+8. Assert: Input field contains 'DFRD0000027'
+9. interact → click → Search button inside widget
+       → button[type='submit'] OR
+       → button[id*='search'] OR
+       → button with text 'Search'
+10. wait → search results to load
+       → waitForElement → Reefer Grid OR
+       → waitForElement → table/grid visible
+11. screenshot — search_results.png
+12. Report
+13. close_session
+```
+
+
+### Scenario 6 — Verify Record Visible in Reefer Grid
+**Trigger phrase:** "verify reefer grid", "check asset in grid", " reefer visibility in reefer grid"
+
+```
+Steps:
+1. (Continuing from Scenario 5 — Asset Search Widget)
+2. interact → locate → 'Reefer Grid' widget
+       → div[id='reefer-grid'] OR
+       → div[class*='reefer-grid'] OR
+       → widget/table with header text 'Reefer Grid'
+3. Assert: Reefer Grid widget is visible on page
+4. interact → search inside Reefer Grid for Asset ID
+       → find row containing 'DFRD0000027' OR
+       → td/cell text matching 'DFRD0000027'
+5. IF record found:
+       a. screenshot — reefer_found.png
+       b. print → 'Reefer is visible in the Reefer grid.'
+       c. Report
+       d. Proceed to scenario 7
+6. IF record NOT found:
+       a. screenshot — fail_scenario_6_reefer_not_found.png
+       b. print → 'Reefer not found'
+       c. Report
+       d. STOP execution
+
+```
+
+
+### Scenario 7 — Click on Reefer Record in Reefer Grid
+**Trigger phrase:** "click on reefer", "Reefer grid click", "select reefer from grid"
+
+```
+Steps:
+1. (Continuing from Scenario 6 — Verify Record Visible in Reefer Grid)
+2. interact → locate → row in Reefer Grid
+       → tr containing text 'DFRD0000027' OR
+       → td[text()='DFRD0000027'] parent row
+3. screenshot — before_click_reefer_record.png
+4. interact → click → row/record in Reefer Grid
+       → tr[data-id='DFRD0000027'] OR
+       → first td in the matching row
+5. wait → Reefer History widget to load
+       → waitForElement → Reefer History widget OR
+       → waitForElement → history table/grid visible
+6. screenshot — after_click_reefer_record.png
+7. Assert: Page responds to click (history section loads)
+8. Report
+
+```
+
+
+### Scenario 8 — Verify Records Visible in Reefer History Widget
+**Trigger phrase:** "check reefer history visibility", "check reefer history records", "confirm reefer history visible"
+
+```
+Steps:
+1. (Continuing from Scenario 7 — Click on Reefer Record in Reefer Grid)
+2. interact → locate → 'Reefer History' widget
+       → div[id='reefer-history'] OR
+       → div[class*='reefer-history'] OR
+       → widget/section with header text 'Reefer History'
+3. Assert: Reefer History widget is visible
+4. Assert: Reefer History widget contains records
+       → find rows inside history table OR
+       → tr count > 0 inside Reefer History widget
+5. IF records found:
+       a. screenshot — reefer_history_visible.png
+       b. print → 'Reefer history is visible'
+       c. Report
+6. IF records NOT found:
+       a. screenshot — fail_TC05_history_empty.png
+       b. print → 'Reefer history records not found'
+       c. Report
+7. close_session
+8. Final Report → All Test Scenarios Summary
+
+```
+
+
 
 ---
 
