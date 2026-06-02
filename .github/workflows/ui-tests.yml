@@ -56,7 +56,7 @@ jobs:
           Regards,
           CI Pipeline
 
-        to: user1@gmail.com,user2@gmail.com,user3@gmail.com,user4@gmail.com
+        to: tejajntuv@gmail.com
         from: CI Bot
         secure: true
         attachments: report.html
