@@ -60,4 +60,3 @@ jobs:
         from: CI Bot
         secure: true
         attachments: report.html
-```
