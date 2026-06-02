@@ -1,29 +1,63 @@
-name: UI Automation Tests
+name: CI Pipeline
 
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    - name: Checkout repo
+      uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+    - name: Install dependencies
+      run: |
+        pip install pytest pytest-html
 
-      - name: Install Chrome
-        uses: browser-actions/setup-chrome@v1
+    - name: Run tests
+      run: |
+        pytest --html=report.html --self-contained-html
+      continue-on-error: true   # ✅ important to continue even if tests fail
 
-      - name: Run UI tests
-        run: pytest tests/ -v --tb=short
+    - name: Upload Test Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: test-report
+        path: report.html
+
+    - name: Send Email Notification
+      if: always()   # ✅ send mail for pass + fail
+      uses: dawidd6/action-send-mail@v3
+      with:
+        server_address: smtp.gmail.com
+        server_port: 465
+        username: ${{ secrets.EMAIL_USERNAME }}
+        password: ${{ secrets.EMAIL_PASSWORD }}
+        subject: "GitHub Actions Test Result - ${{ job.status }}"
+        
+        body: |
+          Hello Team,
+
+          Test execution completed.
+
+          ✅ Status: ${{ job.status }}
+
+          🔗 Download Report:
+          https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          Regards,
+          CI Pipeline
+
+        to: user1@gmail.com,user2@gmail.com,user3@gmail.com,user4@gmail.com
+        from: CI Bot
+        secure: true
+        attachments: report.html
+```

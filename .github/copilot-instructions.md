@@ -21,25 +21,25 @@ report it honestly and attempt a diagnostic before giving up.
 
 ---
 
-## Selenium MCP Tools Available
+## Playwright MCP Tools Available
 
 You have these tools from the Selenium MCP server. Use them in the correct sequence:
 
 | Tool | When to use |
 |---|---|
-| `selenium:start_browser` | Always first — opens Chrome or Firefox |
-| `selenium:navigate` | Go to any URL |
-| `selenium:send_keys` | Type text into an input field |
-| `selenium:interact` | Click buttons, links, checkboxes |
-| `selenium:get_element_text` | Read visible text (used for assertions) |
-| `selenium:get_element_attribute` | Read HTML attributes (disabled, href, value…) |
-| `selenium:execute_script` | Run JavaScript (get URL, scroll, set value) |
-| `selenium:take_screenshot` | Capture the current browser state |
-| `selenium:alert` | Accept/dismiss browser alert dialogs |
-| `selenium:frame` | Switch into or out of iframes |
-| `selenium:press_key` | Press keyboard keys (Enter, Tab, Escape…) |
-| `selenium:diagnostics` | Collect JS console errors or network logs |
-| `selenium:close_session` | Always last — closes the browser |
+| `playwright:start_browser` | Always first — opens Chrome or Firefox |
+| `playwright:navigate` | Go to any URL |
+| `playwright:send_keys` | Type text into an input field |
+| `playwright:interact` | Click buttons, links, checkboxes |
+| `playwright:get_element_text` | Read visible text (used for assertions) |
+| `playwright:get_element_attribute` | Read HTML attributes (disabled, href, value…) |
+| `playwright:execute_script` | Run JavaScript (get URL, scroll, set value) |
+| `playwright:take_screenshot` | Capture the current browser state |
+| `playwright:alert` | Accept/dismiss browser alert dialogs |
+| `playwright:frame` | Switch into or out of iframes |
+| `playwright:press_key` | Press keyboard keys (Enter, Tab, Escape…) |
+| `playwright:diagnostics` | Collect JS console errors or network logs |
+| `playwright:close_session` | Always last — closes the browser |
 
 ---
 

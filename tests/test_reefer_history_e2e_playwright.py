@@ -114,7 +114,7 @@ def driver():
     options.add_argument("--ignore-certificate-errors")
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
-    options.add_argument("--headless")  # uncomment for CI
+    # options.add_argument("--headless")  # uncomment for CI
     driver = webdriver.Chrome(options=options)
     driver.implicitly_wait(5)
     driver.maximize_window()
